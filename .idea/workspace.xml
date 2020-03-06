@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c9984017-134d-4245-9c78-6978004ab89e" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CodeStyleSettingsInfer">
+    <option name="done" value="true" />
+  </component>
+  <component name="CompilerWorkspaceConfiguration">
+    <option name="MAKE_PROJECT_ON_SAVE" value="true" />
+    <option name="PARALLEL_COMPILATION" value="true" />
+  </component>
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Package Object" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectCodeStyleSettingsMigration">
+    <option name="version" value="1" />
+  </component>
+  <component name="ProjectId" id="1VEiWkAEqi8mGEEPZZ480C442bL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="settings.editor.selected.configurable" value="project.propCompiler" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="me.socure.zio.test.themelio.core.implicits" />
+      <recent name="me.socure.zio.test" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.Main (1)">
+    <configuration name="Exp4" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="me.socure.zio.test.Exp4" />
+      <module name="zio-exp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JodaParser" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="me.socure.zio.test.JodaParser" />
+      <module name="zio-exp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="me.socure.themelio.test.Main" />
+      <module name="zio-exp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Monix2" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="me.socure.zio.test.Monix2" />
+      <module name="zio-exp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMain" type="Application" factoryName="Application" temporary="true">
+      <option name="MAIN_CLASS_NAME" value="me.socure.zio.test.TestMain" />
+      <module name="zio-exp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.Main (1)" />
+        <item itemvalue="Application.TestMain" />
+        <item itemvalue="Application.JodaParser" />
+        <item itemvalue="Application.Exp4" />
+        <item itemvalue="Application.Monix2" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SbtLocalSettings">
+    <option name="availableProjects">
+      <map>
+        <entry>
+          <key>
+            <ExternalProjectPojo>
+              <option name="name" value="zio-exp" />
+              <option name="path" value="$PROJECT_DIR$" />
+            </ExternalProjectPojo>
+          </key>
+          <value>
+            <list>
+              <ExternalProjectPojo>
+                <option name="name" value="zio-exp [file:/Users/socure/temp/experiments/zio-exp/]" />
+                <option name="path" value="$PROJECT_DIR$" />
+              </ExternalProjectPojo>
+              <ExternalProjectPojo>
+                <option name="name" value="zio-exp-build" />
+                <option name="path" value="$PROJECT_DIR$/project" />
+              </ExternalProjectPojo>
+            </list>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="modificationStamps">
+      <map>
+        <entry key="$PROJECT_DIR$" value="3160243793670" />
+        <entry key="$PROJECT_DIR$/build.sbt" value="144809536" />
+        <entry key="$PROJECT_DIR$/project/build.properties" value="882899147" />
+      </map>
+    </option>
+  </component>
+  <component name="ScalaProjectSettings">
+    <option name="intInjectionMapping">
+      <map>
+        <entry key="xml" value="XML" />
+      </map>
+    </option>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="viewStates">
+      <list>
+        <serviceView>
+          <treeState>
+            <expand />
+            <select />
+          </treeState>
+        </serviceView>
+      </list>
+    </option>
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="311" y="127" width="834" height="669" key="#Project_Structure" timestamp="1576824898422">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="311" y="127" width="834" height="669" key="#Project_Structure/0.23.1440.877@0.23.1440.877" timestamp="1576824898422" />
+    <state x="611" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog" timestamp="1583501110251">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="458" y="234" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/0.23.1440.877@0.23.1440.877" timestamp="1579533353650" />
+    <state x="611" y="277" key="#com.intellij.codeInsight.editorActions.RestoreReferencesDialog/87.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1583501110251" />
+    <state x="699" y="194" key="#com.intellij.ide.util.MemberChooser" timestamp="1583504066672">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="524" y="165" key="#com.intellij.ide.util.MemberChooser/0.23.1440.877@0.23.1440.877" timestamp="1581519151408" />
+    <state x="699" y="194" key="#com.intellij.ide.util.MemberChooser/87.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1583504066672" />
+    <state width="1874" height="403" key="GridCell.Tab.0.bottom" timestamp="1583500052424">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1394" height="323" key="GridCell.Tab.0.bottom/0.23.1440.877@0.23.1440.877" timestamp="1581622159387" />
+    <state width="1874" height="403" key="GridCell.Tab.0.bottom/87.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1583500052424" />
+    <state width="1874" height="403" key="GridCell.Tab.0.center" timestamp="1583500052423">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1394" height="323" key="GridCell.Tab.0.center/0.23.1440.877@0.23.1440.877" timestamp="1581622159387" />
+    <state width="1874" height="403" key="GridCell.Tab.0.center/87.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1583500052423" />
+    <state width="1874" height="403" key="GridCell.Tab.0.left" timestamp="1583500052423">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1394" height="323" key="GridCell.Tab.0.left/0.23.1440.877@0.23.1440.877" timestamp="1581622159387" />
+    <state width="1874" height="403" key="GridCell.Tab.0.left/87.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1583500052423" />
+    <state width="1874" height="403" key="GridCell.Tab.0.right" timestamp="1583500052424">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state width="1394" height="323" key="GridCell.Tab.0.right/0.23.1440.877@0.23.1440.877" timestamp="1581622159387" />
+    <state width="1874" height="403" key="GridCell.Tab.0.right/87.1103.1440.877/0.23.1920.1057@0.23.1920.1057" timestamp="1583500052424" />
+    <state width="1394" height="378" key="GridCell.Tab.1.bottom" timestamp="1577085698756">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1394" height="378" key="GridCell.Tab.1.bottom/0.23.1440.877@0.23.1440.877" timestamp="1577085698756" />
+    <state width="1394" height="378" key="GridCell.Tab.1.center" timestamp="1577085698756">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1394" height="378" key="GridCell.Tab.1.center/0.23.1440.877@0.23.1440.877" timestamp="1577085698756" />
+    <state width="1394" height="378" key="GridCell.Tab.1.left" timestamp="1577085698756">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1394" height="378" key="GridCell.Tab.1.left/0.23.1440.877@0.23.1440.877" timestamp="1577085698756" />
+    <state width="1394" height="378" key="GridCell.Tab.1.right" timestamp="1577085698756">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state width="1394" height="378" key="GridCell.Tab.1.right/0.23.1440.877@0.23.1440.877" timestamp="1577085698756" />
+    <state x="251" y="100" key="SettingsEditor" timestamp="1580825310753">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="251" y="100" key="SettingsEditor/0.23.1440.877@0.23.1440.877" timestamp="1580825310753" />
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup" timestamp="1579601263714">
+      <screen x="0" y="23" width="1440" height="877" />
+    </state>
+    <state x="385" y="213" width="670" height="676" key="search.everywhere.popup/0.23.1440.877@0.23.1440.877" timestamp="1579601263714" />
+  </component>
+  <component name="se.expertsystem.intellij.aop.aspectj.AspectJProjectComponent">
+    <setting name="isActivated" value="false" />
+  </component>
+</project>
