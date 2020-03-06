@@ -13,8 +13,20 @@ object Generalizer {
     override def generalize2(in2: In2): Either[In1, In2] = Right(in2)
   }
 
-  object Implicits {
+  def simple[T]: Generalizer[T, T, T] = new Generalizer[T, T, T] {
+    override def generalize1(in1: T): T = in1
+
+    override def generalize2(in2: T): T = in2
+  }
+
+  trait ImplicitsSimple {
+    implicit def simpleImp[T]: Generalizer[T, T, T] = simple[T]
+  }
+
+  trait Implicits extends ImplicitsSimple {
     implicit def eitherGeneralizerImp[In1, In2]: Generalizer[In1, In2, Either[In1, In2]] = eitherGeneralizer[In1, In2]
   }
+
+  object Implicits extends Implicits
 
 }

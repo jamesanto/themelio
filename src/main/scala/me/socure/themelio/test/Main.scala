@@ -5,8 +5,14 @@ object Main {
   import me.socure.themelio.core._
   import me.socure.themelio.implicits._
 
+  case class CustomDouble(value: Double) extends AnyVal
+
   def doubleEven(i: Int): Either[String, Double] = {
     if (i % 2 == 0) Right(i * i) else Left("Expecting an even number")
+  }
+
+  def doubleEvenDouble(d: Double): Either[String, CustomDouble] = {
+    if(d % 2 == 0) Right(CustomDouble(d * d)) else Left("error")
   }
 
   def interceptEven[Res[_, _] : MapSuccess : MapFailure](input: MyCustomInputI, service: Service[MyCustomInputS, MyCustomErrS, MyCustomOutS, Res]): Res[MyCustomErrI, MyCustomOutI] = {
@@ -30,6 +36,10 @@ object Main {
 
   def main(args: Array[String]): Unit = {
     val service = doubleEven _
+    val service2 = doubleEvenDouble _
+    val service3: Service[Int, String, CustomDouble, Either] = service.andThen(service2)
+
+
     val finalService = service
       .mapSuccess(MyCustomOutS)
       .mapFailure(MyCustomErrS)

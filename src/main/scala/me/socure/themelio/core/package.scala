@@ -1,6 +1,8 @@
 package me.socure.themelio
 
-package object core {
+import me.socure.themelio.core.Generalizer.ImplicitsSimple
+
+package object core extends ImplicitsSimple {
 
   import Generalizer.Implicits._
 
@@ -53,7 +55,7 @@ package object core {
       in: In => interceptor(in, self)
     }
 
-    def andThen[Err1, Out1](next: Res[Err, Out] => Res[Err1, Out1]): Service[In, Err1, Out1, Res] = {
+    def andThen0[Err1, Out1](next: Res[Err, Out] => Res[Err1, Out1]): Service[In, Err1, Out1, Res] = {
       in: In => {
         val res = self(in)
         next(res)
