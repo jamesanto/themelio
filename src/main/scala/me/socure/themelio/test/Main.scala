@@ -7,18 +7,18 @@ object Main {
 
   case class CustomDouble(value: Double) extends AnyVal
 
-  def doubleEven(i: Int): Either[String, Double] = {
-    if (i % 2 == 0) Right(i * i) else Left("Expecting an even number")
+  def doubleEven(i: Int): Result[String, Double] = {
+    if (i % 2 == 0) Result.success(i * i) else Result.failure("Expecting an even number")
   }
 
-  def doubleEvenDouble(d: Double): Either[String, CustomDouble] = {
-    if(d % 2 == 0) Right(CustomDouble(d * d)) else Left("error")
+  def doubleEvenDouble(d: Double): Result[String, CustomDouble] = {
+    if (d % 2 == 0) Result.success(CustomDouble(d * d)) else Result.failure("error")
   }
 
-  def interceptEven[Res[_, _] : MapSuccess : MapFailure](input: MyCustomInputI, service: Service[MyCustomInputS, MyCustomErrS, MyCustomOutS, Res]): Res[MyCustomErrI, MyCustomOutI] = {
+  def interceptEven[Res[+_, +_] : Map : MapFailure](input: MyCustomInputI, service: Service[MyCustomInputS, MyCustomErrS, MyCustomOutS, Res]): Res[MyCustomErrI, MyCustomOutI] = {
     val res = service(MyCustomInputS(input.value))
     res
-      .mapSuccess(out => MyCustomOutI(out.value))
+      .map(out => MyCustomOutI(out.value))
       .mapFailure(err => MyCustomErrI(err.value))
   }
 
@@ -37,18 +37,18 @@ object Main {
   def main(args: Array[String]): Unit = {
     val service = doubleEven _
     val service2 = doubleEvenDouble _
-    val service3: Service[Int, String, CustomDouble, Either] = service.andThen(service2)
+//    val service3: Service[Int, String, CustomDouble, Result] = service.andThen(service2)
 
 
     val finalService = service
-      .mapSuccess(MyCustomOutS)
+      .map(MyCustomOutS)
       .mapFailure(MyCustomErrS)
       .mapInput[MyCustomInputS](_.value)
-      .interceptWith(interceptEven[Either])
+      .interceptWith(interceptEven[Result])
 
     val res1 = finalService(MyCustomInputI(3))
     val res2 = finalService(MyCustomInputI(4))
-    println(res1)
-    println(res2)
+    println(res1.runUnsafeSync())
+    println(res2.runUnsafeSync())
   }
 }

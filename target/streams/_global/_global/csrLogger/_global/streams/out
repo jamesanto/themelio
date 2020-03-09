@@ -1,4 +1,12 @@
-[debug] downloaded https://repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.pom
-[debug] downloaded https://repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5.jar
-[debug] downloaded https://repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-sources.jar
-[debug] downloaded https://repo1.maven.org/maven2/joda-time/joda-time/2.10.5/joda-time-2.10.5-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-streams_2.11/1.0.0-RC17/zio-streams_2.11-1.0.0-RC17.pom
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio_2.11/1.0.0-RC17/zio_2.11-1.0.0-RC17.pom
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.11/1.0.0-RC17/zio-stacktracer_2.11-1.0.0-RC17.pom
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.11/1.0.0-RC17/zio-stacktracer_2.11-1.0.0-RC17.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-streams_2.11/1.0.0-RC17/zio-streams_2.11-1.0.0-RC17.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio_2.11/1.0.0-RC17/zio_2.11-1.0.0-RC17.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio_2.11/1.0.0-RC17/zio_2.11-1.0.0-RC17-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio_2.11/1.0.0-RC17/zio_2.11-1.0.0-RC17-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.11/1.0.0-RC17/zio-stacktracer_2.11-1.0.0-RC17-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-streams_2.11/1.0.0-RC17/zio-streams_2.11-1.0.0-RC17-sources.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-streams_2.11/1.0.0-RC17/zio-streams_2.11-1.0.0-RC17-javadoc.jar
+[debug] downloaded https://repo1.maven.org/maven2/dev/zio/zio-stacktracer_2.11/1.0.0-RC17/zio-stacktracer_2.11-1.0.0-RC17-javadoc.jar

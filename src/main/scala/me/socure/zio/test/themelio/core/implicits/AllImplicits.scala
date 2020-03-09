@@ -1,7 +1,7 @@
 package me.socure.zio.test.themelio.core.implicits
 
-import me.socure.zio.test.themelio.core.implicits.tryit.TrySupport
+//import me.socure.zio.test.themelio.core.implicits.tryit.TrySupport
 
-trait AllImplicits extends TrySupport
+//trait AllImplicits extends TrySupport
 
-object AllImplicits extends AllImplicits
+//object AllImplicits extends AllImplicits
